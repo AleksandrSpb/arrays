@@ -16,3 +16,4 @@ const newCharacters = characters.map(function (character) {
 });
 
 console.log(newCharacters);
+/*решение задачи*/
