@@ -9,7 +9,10 @@ const characters = [
 ];
 
 const newCharacters = characters.map(function (character) {
-    // напишите свой код здесь
+    if (character === 'Энакин Скайуокер') {
+        return 'Дарт Вейдер';
+    }
+    return character;
 });
 
 console.log(newCharacters);
