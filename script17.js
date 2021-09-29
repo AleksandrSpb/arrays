@@ -7,3 +7,6 @@ const incorrectWord = characters.find(function (item) {
 });
 
 console.log(incorrectWord);
+
+/*Метод find  прекращает перебор после того, как колбэк впервые вернёт true. Используйте
+    его там, где необязательно обходить весь массив, а просто нужно что-то в нём найти.*/
