@@ -26,3 +26,4 @@ const chessChampions = [
         return a[1] - b[1];
     });
     console.log(chessChampions)
+/*Задача решена*/
